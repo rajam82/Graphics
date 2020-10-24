@@ -39,6 +39,7 @@ public class CreatingCircleImageMathameticalCalc extends Canvas {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		 g.drawImage(img, 560, 180, null);
 		 // increase angle (should be a double value
 for(int i=0;i<1000;i++) {
 	    double random = angle * 2.0 * Math.PI/360.0; //this will convert it to rads
